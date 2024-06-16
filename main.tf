@@ -87,7 +87,7 @@ resource "aws_instance" "cicd_demo" {
   ami             = data.aws_ami.ubuntu.id
   instance_type   = "t2.large"
   vpc_security_group_ids = [aws_security_group.cicd_sg.id]
-  subnet_id       =  # Make sure to define a subnet within the VPC
+  subnet_id       = aws_subnet.main.id # Make sure to define a subnet within the VPC
   key_name        = ""    # Replace with your key pair name
 
   tags = {
