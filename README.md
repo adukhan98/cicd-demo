@@ -1,14 +1,21 @@
-# cicd-demo
-This is a demo cicd end-to-end pipeline.
+# CI/CD End-to-End Pipeline Demo
 
+This is a demo CI/CD end-to-end pipeline.
 
-Tools and Technologies used here : Docker, Maven, Jenkins, SonarQube, ArgoCD, Kubernetes(miniKube), Python 
-
-The architecture and workflow of my CI/CD pipeline is as follows :
+## Tools and Technologies Used
+- **Docker**
+- **Maven**
+- **Jenkins**
+- **SonarQube**
+- **ArgoCD**
+- **Kubernetes (miniKube)**
+- **Python**
+   
+### The architecture and workflow of my CI/CD pipeline is as follows :
 
 ![cicd_demo (1)](https://github.com/adukhan98/cicd-demo/assets/100485489/b330ff87-053f-4d4e-86b4-267c71a043fe)
 
-I divided this entire project into 4 phases:
+### I divided this entire project into 4 phases:
 
 ![image](https://github.com/adukhan98/cicd-demo/assets/100485489/5175ee44-701b-491d-905e-1fddb513a9f6)
 
